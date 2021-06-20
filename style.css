@@ -1,0 +1,35 @@
+:root {
+    --cor-fundo: rgb(164, 167, 6);
+    --cor-hover: rgb(193, 197, 129);
+    --cor-primaria: rgb(251, 253, 253);
+}
+
+.menu {
+    background-color: var(--cor-fundo);
+    display: inline;
+    position: inline-block;
+}
+
+.menu a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white
+}
+
+.menu a {
+    background-color: coral;
+    border: 5px;
+    border-color: cornsilk;
+}
+
+.imagem1 {
+    width: 30%;
+    padding: 20px;
+    align-self: center;
+}
+
+#endereço {
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
